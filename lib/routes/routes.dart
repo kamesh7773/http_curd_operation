@@ -11,6 +11,7 @@ class Routes {
           builder: (context) => const HomePage(),
         );
 
+      //! Default Route
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(
